@@ -1,18 +1,23 @@
 h1{
     font-family: Geneva;
     text-decoration: underline; /* try later with weavy*/
+    box-shadow: 2rem;
 }
 h3{
     font-family: Geneva;
 }
 
 body{
-    background-color: #c4a483d7;/* change the body*/
+    background-color: hsla(30, 78%, 15%, 0.86);/* change the body*/
 }
 
 header{
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
+    border-radius: .75em;
+    padding: 40;
+    text-shadow: 1rem;
+
 }
 body{
     color: white; 
@@ -21,4 +26,19 @@ body{
 a{
     color: lightseagreen
 
+}
+img{
+    display: block;
+    height: 20%;
+    border: lightgreen;
+    border-radius: .75em;
+    margin-bottom: 40px;
+}
+.subheading{
+    border-bottom: underline;
+}
+article{
+    border-radius: .75em;
+    padding: 40px;
+    box-shadow: 2rem;
 }
